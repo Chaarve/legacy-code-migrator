@@ -1,0 +1,30 @@
+# Environment & secrets
+.env
+.env.*
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Migration outputs
+migrated/
+migrated_v2/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
